@@ -2,6 +2,8 @@
 
 var greet = require('./greet');
 document.write(greet());
+var notes = require('./notes');
+document.write(notes());
 var noteList = document.getElementById('notelist');
 
 var request = require('superagent');
